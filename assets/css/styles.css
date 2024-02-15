@@ -82,6 +82,15 @@ section {
   border-radius: 30px;
 }
 
+.banner .banner-content button:hover {
+  cursor: pointer;
+  border: 2px;
+  color: #1572B7;
+  font-size: 1.1rem;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
 #course-content {
   width: 800px;
   text-align: center;
