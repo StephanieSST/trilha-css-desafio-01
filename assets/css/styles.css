@@ -1,4 +1,12 @@
-@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
 
 body {
   background-color: black;
@@ -15,6 +23,7 @@ h2 {
 
 p {
   color: white;
+  align-items: center;
 }
 
 section {
@@ -50,6 +59,10 @@ section {
 .banner p {
   font-size: 1.25rem;
   margin: 16px 0 24px;
+  background: -webkit-linear-gradient(#ffff, #ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner .logo {
@@ -75,7 +88,7 @@ section {
   font-weight: bold;
   padding: 16px 32px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   background-color: transparent;
   border-image: linear-gradient(#3BA1CD, #1572B7);
   border-image-slice: 10;
@@ -84,16 +97,24 @@ section {
 
 .banner .banner-content button:hover {
   cursor: pointer;
-  border: 2px;
-  color: #1572B7;
-  font-size: 1.1rem;
+  color: #075a9a;
+  font-size: large;
   font-style: italic;
-  letter-spacing: 2px;
+  font-weight: bolder;
+  border-image: linear-gradient(#1572B7, #1572B7);
+  border-image-slice: 10;
 }
 
 #course-content {
   width: 800px;
   text-align: center;
+}
+
+#course-content p {
+  background: -webkit-linear-gradient(#ffff, #ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #course-content .modules-list {
@@ -108,8 +129,8 @@ section {
   background-color: #252525;
   padding: 16px;
   border-radius: 100px;
-  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-}
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); 
+ }
 
 #course-content .modules-list .module span {
   color: #33A8DB;
@@ -142,6 +163,13 @@ section {
   margin: 32px 0;
 }
 
+#professional-challenges p {
+  color: transparent;
+  background: -webkit-linear-gradient(#ffff, #ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 footer {
   padding: 60px 0;
   text-align: center;
@@ -153,8 +181,23 @@ footer .dio-logo {
   width: 300px;
 }
 
+footer p {
+  color: transparent;
+  background: -webkit-linear-gradient(#ffff, #ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 footer a {
   color: #33A8DB;
   font-weight: bold;
   text-decoration: none;
 }
+
+footer a:hover {
+  cursor: pointer;
+  border: 2px;
+  font-size: 1.1rem;
+}
+
+
